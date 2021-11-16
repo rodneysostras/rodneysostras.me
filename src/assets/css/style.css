@@ -1,0 +1,46 @@
+/*
+ ┌──────────────────────────────────────────────────────────────────────────────────────────────┐
+ │ Copyright (c) 2021 by the author of the React-weather project. All rights reserved.          │
+ │ This owner-supplied source code has no limitations on the condition imposed on the           │
+ │ maintenance of the copyright notice.                                                         │
+ │ For more information, read the LICENSE file at the root of the project.                      │
+ │ Written by author Rodney Sostras <rodney.sostras@gmail.com>.                                 │
+ └──────────────────────────────────────────────────────────────────────────────────────────────┘ */
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html,
+body,
+#app {
+  min-height: 100vh;
+  width: 100%;
+}
+
+body {
+  font-family: "Libre Franklin", sans-serif;
+  text-rendering: optimizeLegibility;
+  line-height: 1.5;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 968px;
+  width: 100%;
+  margin: 0 auto;
+}

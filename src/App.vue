@@ -1,16 +1,18 @@
 <template>
-  <Introduction />
-  <footer>Copyright © {{ new Date().getFullYear() }} Rodney Sostras</footer>
+  <Home />
+  <Footer />
 </template>
 
 <script>
 import "./assets/css/style.css";
-import Introduction from "./pages/introduction";
+import Home from "./pages/home";
+import Footer from "./pages/footer";
 
 export default {
   name: "App",
   components: {
-    Introduction,
+    Home,
+    Footer,
   },
 };
 </script>
@@ -31,5 +33,15 @@ body,
 
 html {
   box-sizing: border-box;
+}
+
+.info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: #fff;
+  text-align: center;
+  transform: translateX(-50%) translateY(-70%);
+  user-select: none;
 }
 </style>

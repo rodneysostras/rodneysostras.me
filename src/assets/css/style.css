@@ -6,7 +6,6 @@
  │ For more information, read the LICENSE file at the root of the project.                      │
  │ Written by author Rodney Sostras <rodney.sostras@gmail.com>.                                 │
  └──────────────────────────────────────────────────────────────────────────────────────────────┘ */
-
 *,
 *:before,
 *:after {
@@ -43,4 +42,28 @@ a {
   max-width: 968px;
   width: 100%;
   margin: 0 auto;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@font-face {
+  font-family: "Agustina Regular";
+  font-style: normal;
+  font-weight: 100;
+  src: local("Agustina Regular"), local("Agustina-Regular"),
+    url("../font/agustina.woff") format("woff");
 }

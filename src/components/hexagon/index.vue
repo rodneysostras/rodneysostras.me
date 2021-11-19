@@ -8,16 +8,16 @@
  └──────────────────────────────────────────────────────────────────────────────────────────────┘ -->
 
 <template>
-  <main class="mainhex">
+  <div id="hexagon">
     <div v-for="i in row" :key="i" class="row">
       <div v-for="x in hex" :key="x" class="hex"></div>
     </div>
-  </main>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "Introduction",
+  name: "Hexagon",
   data: () => {
     return {
       innerWidth: window.innerWidth,
@@ -26,10 +26,10 @@ export default {
   },
   computed: {
     hex: function () {
-      return Math.round(this.innerWidth / 65.725) + 2;
+      return Math.round(this.innerWidth / 30);
     },
     row: function () {
-      return Math.round(this.innerHeight / 50) + 4;
+      return Math.round(this.innerHeight / 25);
     },
   },
   mounted() {
@@ -42,15 +42,18 @@ export default {
 </script>
 
 <style>
-.mainhex {
+#hexagon {
+  --size: 30px;
+  --margin: 2px;
+  --bg: #191919;
+  --color: #242424;
+
   height: 100vh;
   width: 100%;
-  background-color: #000;
+
+  background: var(--bg);
   overflow: hidden;
   animation: animate 4s linear infinite;
-
-  --size: 50px;
-  --margin: 4px;
 }
 
 @keyframes animate {
@@ -61,40 +64,41 @@ export default {
     filter: hue-rotate(360deg);
   }
 }
-.mainhex .row {
-  margin-top: -13px;
+
+#hexagon .row {
+  margin-top: calc(var(--margin) - var(--size) * 0.52);
   overflow: hidden;
   white-space: nowrap;
 }
 
-.mainhex .row:nth-child(even) {
-  margin-left: -32px;
+#hexagon .row:nth-child(even) {
+  margin-left: calc(var(--margin) - var(--size) * 0.6885);
 }
 
-.mainhex .hex {
+#hexagon .hex {
   position: relative;
   display: inline-block;
   height: var(--size);
   width: calc(var(--size) * 1.1547);
-  margin-left: 7px;
-  background: #111;
+  margin: var(--margin);
+  background: var(--color);
 
   transition: 2s;
 }
 
-.mainhex .hex:before {
+#hexagon .hex:before {
   position: absolute;
   content: "";
   top: calc(var(--margin) / 2);
   left: calc(var(--margin) / 2);
   height: calc(100% - var(--margin));
   width: calc(100% - var(--margin));
-  background-color: #000;
+  background-color: var(--bg);
   z-index: 1;
 }
 
-.mainhex .hex,
-.mainhex .hex:before {
+#hexagon .hex,
+#hexagon .hex:before {
   -webkit-clip-path: polygon(
     50% 0%,
     100% 25%,
@@ -106,7 +110,7 @@ export default {
   clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
 }
 
-.mainhex .hex:hover {
+#hexagon .hex:hover {
   background-color: #0f0;
   transition: 0s;
 }

@@ -11,7 +11,7 @@
 
 # 🤩 Portfólio
 
-Um simples aplicativo web em VueJS que demostra meus projetos no Github, este projeto tem o objetivo de praticar minhas habilidade de desenvolvedor com as seguintes tecnologias.
+Um simples aplicativo web em VueJS que demostra meus projetos do Github, este projeto tem o objetivo de praticar minhas habilidade de desenvolvedor com as seguintes tecnologias.
 <br />
 
 <div align="center">

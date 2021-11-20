@@ -16,7 +16,6 @@ Um simples aplicativo web em VueJS que demostra meus projetos no Github, este pr
 
 <div align="center">
   <img src="https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vue.js&logoColor=4FC08D" />
-  <img src="https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white" />
   <img src="https://img.shields.io/badge/ESLint-4B3263?style=for-the-badge&logo=eslint&logoColor=white" />
   <img src="https://img.shields.io/badge/Prettier-ff69b4?style=for-the-badge&logo=Prettier&logoColor=white" />
 </div>

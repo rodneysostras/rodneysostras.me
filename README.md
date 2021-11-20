@@ -54,6 +54,7 @@ Projeto desenvolvido para praticar minhas habilidades de desenvolvedor com as ma
     - [ ] Layout desktop
     - [ ] Layout Dark
     - [ ] Layout Responsivo
+-[ ] SEO
         
 
 ## 🚀 Como executar o projeto

@@ -29,7 +29,7 @@ Um simples aplicativo web em VueJS que demostra meus projetos do Github, este pr
     <a href="#-tecnologias">Tecnologias</a> •
     <a href="#-autor">Autor</a> • 
     <a href="#-creditos">Creditos</a> •
-    <a href="#user-content--licença">Licença</a>
+    <a href="#-licença">Licença</a>
 </p>
 
 ## 💻 Sobre o projeto
@@ -43,18 +43,27 @@ Projeto desenvolvido para praticar minhas habilidades de desenvolvedor com as ma
 
 - [ ] Serviço para consumo da API Github
     - Criação da lib para abstração do fluxo de informação
-- [ ] Paginas
-  - [x] Home
-  - [ ] About
-  - [ ] Resume
-  - [ ] Projects
-  - [ ] Contact
-  - [ ] Footer
+- [ ] Seção do site
+  - [x] Home • Uma breve apresentação 
+  - [ ] About • Um pouco de quem eu sou
+  - [ ] Resume • Meu currículo
+  - [ ] Skill • Tecnologia quê possuo habilidades
+  - [ ] Projects • Meus projetos no Github
+  - [ ] Contact • Como falar comigo
 - [ ] Layout
-    - [ ] Layout desktop
-    - [ ] Layout Dark
+    - [ ] Layout Desktop
     - [ ] Layout Responsivo
+    - [ ] Layout Dark
 - [ ] SEO
+    - [ ] Title
+    - [ ] Description
+    - [ ] Keywords
+    - [ ] Brand
+    - [ ] H1 + H2 + H3
+    - [ ] Links Target + Title
+    - [ ] Imagens alt + Title
+    - [ ] Author Ranking (Google plus)
+
         
 
 ## 🚀 Como executar o projeto

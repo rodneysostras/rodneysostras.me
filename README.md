@@ -87,7 +87,7 @@ $ npm run serve
 
 ## 🛠 Tecnologias
 
-#### **Website** ([Vue](https://vuejs.org/)
+#### **Website** ([Vue](https://vuejs.org/))
 -   **[Axios](https://github.com/axios/axios)**
 
 #### **Dev**

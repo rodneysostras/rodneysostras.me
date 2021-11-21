@@ -8,34 +8,34 @@
 └──────────────────────────────────────────────────────────────────────────────────────────────┘ -->
 
 <template>
-  <section id="home">
-    <Navbar />
-    <Info />
-    <ScrollDown />
-    <Hexagon />
-  </section>
+    <section id="home">
+        <Navbar />
+        <Info />
+        <a href="#about" target="_self" title="Sobre mim"><ScrollDown /></a>
+        <Hexagon />
+    </section>
 </template>
 
 <script>
-import Info from "../../components/info";
-import Hexagon from "../../components/hexagon";
-import Navbar from "../../components/navbar";
-import ScrollDown from "../../components/scrolldown";
+import Info from '../../components/info';
+import Hexagon from '../../components/hexagon';
+import Navbar from '../../components/navbar';
+import ScrollDown from '../../components/scrolldown';
 export default {
-  name: "Home",
-  components: {
-    Info,
-    Hexagon,
-    Navbar,
-    ScrollDown,
-  },
+    name: 'Home',
+    components: {
+        Info,
+        Hexagon,
+        Navbar,
+        ScrollDown,
+    },
 };
 </script>
 
 <style>
 #home {
-  position: relative;
-  height: 100vh;
-  width: 100%;
+    position: relative;
+    height: 100vh;
+    width: 100%;
 }
 </style>

@@ -1,17 +1,23 @@
 <div align="center">
-    <img src="https://img.shields.io/badge/%F0%9F%9A%A7%20EM%20CONTRU%C3%87%C3%83O%20-10%25-brightgreen?style=for-the-badge" />
-    <img src="https://shields.io/github/deployments/rodneysostras/rodneysostras.me/production?style=for-the-badge&logo=appveyor" />
-</div>
-
-<br />
-
-<div align="center">
-    <img src="https://github.com/rodneysostras/rodneysostras/blob/main/assets/img/rodney-sostras-logo-cursiva.png" alt="" height="200em"/>
+    <img src="https://github.com/rodneysostras/rodneysostras/blob/main/assets/img/rodney-sostras-logo-cursiva.png" alt="" height="150em"/>
 </div>
 
 # 🤩 Portfólio
 
-Um simples aplicativo web em VueJS que demostra meus projetos do Github, este projeto tem o objetivo de praticar minhas habilidade de desenvolvedor com as seguintes tecnologias.
+<div align="center">
+    <img src="https://img.shields.io/badge/%F0%9F%9A%A7%20EM%20CONTRU%C3%87%C3%83O%20-10%25-brightgreen?style=for-the-badge" />
+    <img src="https://shields.io/github/deployments/rodneysostras/rodneysostras.me/production?style=for-the-badge&logo=appveyor" />
+    <img src="https://img.shields.io/github/repo-size/rodneysostras/rodneysostras.me?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/languages/count/rodneysostras/rodneysostras.me?style=for-the-badge"/>
+    <img src="https://img.shields.io/bitbucket/issues/rodneysostras/rodneysostras.me?style=for-the-badge"/>
+</div>
+
+<br />
+
+<div align="center"><img src="https://github.com/rodneysostras/rodneysostras.me/blob/main/public/img/previewer-dispositivos.png" alt="exemplo imagem" height="450em"/></div>
+
+<div align="center"><em>Um simples aplicativo web em VueJS que demostra meus projetos do Github, este projeto tem o objetivo de praticar minhas habilidade de desenvolvedor com as seguintes tecnologias.</em></div>
+
 <br />
 
 <div align="center">
@@ -34,7 +40,7 @@ Um simples aplicativo web em VueJS que demostra meus projetos do Github, este pr
 
 ## 💻 Sobre o projeto
 
-🤩 rodneysostras.me - Meu portfólio pessoal que desmostra minhas habilidades técnicas, projetos no Github meu currículo.
+🤩 rodneysostras.me - Meu portfólio pessoal que desmostra minhas habilidades técnicas, projetos no Github e meu currículo.
 
 Projeto desenvolvido para praticar minhas habilidades de desenvolvedor com as mais atuais tecnologias do momento.
 

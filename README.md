@@ -7,10 +7,16 @@
 <div align="center">
     <img src="https://img.shields.io/badge/%F0%9F%9A%A7%20EM%20CONTRU%C3%87%C3%83O%20-10%25-brightgreen?style=for-the-badge" />
     <img src="https://shields.io/github/deployments/rodneysostras/rodneysostras.me/production?style=for-the-badge&logo=appveyor" />
+    <img src="https://img.shields.io/website-up-down-green-red/https/rodneysostras.me?style=for-the-badge"/>
     <img src="https://img.shields.io/github/repo-size/rodneysostras/rodneysostras.me?style=for-the-badge"/>
     <img src="https://img.shields.io/github/languages/count/rodneysostras/rodneysostras.me?style=for-the-badge"/>
     <img src="https://img.shields.io/bitbucket/issues/rodneysostras/rodneysostras.me?style=for-the-badge"/>
+    <img src="https://img.shields.io/github/license/rodneysostras/rodneysostras.me?style=for-the-badge"/>
 </div>
+
+<br />
+
+<div align="center"><a href="https://rodneysostras.me"><b>DEMO - https://rodneysostras.me/</b></a></div>
 
 <br />
 
@@ -45,7 +51,7 @@
 Projeto desenvolvido para praticar minhas habilidades de desenvolvedor com as mais atuais tecnologias do momento.
 
 
-## ⚙️ Recursos
+## 📦 Recursos
 
 - [ ] Serviço para consumo da API Github
     - Criação da lib para abstração do fluxo de informação
@@ -104,22 +110,43 @@ $ npm run serve
 > Veja o arquivo  [package.json](https://github.com/rodneysostras/rodneysostras.me/blob/main/package.json)
 
 ## 🦸 Autor
-<div align="center">
-    <a href="https://rodneysostras.me" >
-        <img src="https://github.com/rodneysostras.png" alt="Rodney Sostras" width="100px"/>
-        <br />
-        <sub><b>Rodney Sostras<b></sub>
-    </a>
-    <br/>
-    <br/>
-    <p>
-        <a href="https://github.com/rodneysostras"> <img src="https://img.shields.io/badge/rodneysostras-000000?style=flat&logo=GitHub&logoColor=white" /></a>&nbsp;
-        <a href="https://linkedin.com/in/rodney-sostras"> <img src="https://img.shields.io/badge/-rodney--sostras-0077B5?style=flat&logo=Linkedin&logoColor= branco "/></a>&nbsp;
-        <a href="mailto:rodney.sostras@gmail.com"> <img src="https://img.shields.io/badge/-rodney.sostras@gmail.com-D14836?style=flat&logo=Gmail&logoColor=white" /></a>
-    </p>
-</div>
-<br/>
 
+<table align="left">
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://github.com/rodneysostras.png" width="150px;" alt="Foto do Rodney Sostras no GitHub"/><br>
+        <sub>
+          <b>Rodney Sostras</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+<p>
+    &nbsp;&nbsp;
+    <a href="https://github.com/rodneysostras">
+        <img src="https://img.shields.io/badge/rodneysostras-000000?style=for-the-badge&logo=GitHub&logoColor=FFF" />
+    </a>
+</p>
+<p>
+    &nbsp;&nbsp;
+    <a href="https://linkedin.com/in/rodney-sostras" alt="Linkedin do Rodney Sostras">
+        <img src="https://img.shields.io/badge/-rodney--sostras-0077B5?style=for-the-badge&logo=Linkedin&logoColor=FFF"/>
+    </a>
+</p>
+<p>&nbsp;&nbsp;
+    <a href="mailto:contact@rodneysostras.me" alt="Email do Rodney Sostras">
+        <img src="https://img.shields.io/badge/-contact@rodneysostras.me-D14836?style=for-the-badge&logo=Gmail&logoColor=FFF" />
+    </a>
+</p>
+<p>&nbsp;&nbsp;
+    <a href="https://rodneysostras.me/" alt="Web Site do Rodney Sostras">
+        <img src="https://img.shields.io/badge/%F0%9F%8C%8E%20RODNEYSOSTRAS.ME%20-191919?style=for-the-badge" />
+    </a>
+</p>
+
+<br />
         
 ## 🎨 Creditos
 
@@ -131,3 +158,7 @@ $ npm run serve
 Este projeto esta sobe a licença [MIT](./LICENSE).
 
 Feito com ❤️ por Rodney Sostras 👋🏽 [Entre em contato!](https://www.linkedin.com/in/rodney-sostras/)
+        
+<br />
+        
+<div align="right"><a href="#-portfólio">Voltar ao topo ⬆</a></div>

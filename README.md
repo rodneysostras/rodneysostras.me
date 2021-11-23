@@ -99,13 +99,11 @@ $ npm run serve
 
 ## 🛠 Tecnologias
 
-#### **Website** ([Vue](https://vuejs.org/))
--   **[Axios](https://github.com/axios/axios)**
-
-#### **Dev**
--   **[Eslint](https://github.com/eslint/eslint)**
--   **[Prettier](https://github.com/prettier/prettier)**
--   **[@vue/cli](https://cli.vuejs.org/)**
+-   **[Vue](https://vuejs.org/)** • Framework Javascript open source utilizado para criar aplicações SPA.
+-   **[Axios](https://github.com/axios/axios)** • Cliente HTTP leve semelhante à API Fetch nativa do JavaScript.
+-   **[Eslint](https://github.com/eslint/eslint)** • Ferramenta que analisa o código permite identificar erros quanto ao padrão de escrita que definimos.
+-   **[Prettier](https://github.com/prettier/prettier)** • Ferramenta que analisa o código com finalidade de "forçar" um padrão de código.
+-   **[@vue/cli](https://cli.vuejs.org/)** • Ferramenta de linha de comando feita pela comunidade do Vue.
 
 > Veja o arquivo  [package.json](https://github.com/rodneysostras/rodneysostras.me/blob/main/package.json)
 

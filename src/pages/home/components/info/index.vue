@@ -24,7 +24,7 @@
                     height="24"
                     aria-label="Github Icon"
                 >
-                    <image xlink:href="../../assets/img/github.svg"></image>
+                    <image xlink:href="../../../../assets/img/github.svg"></image>
                 </svg>
             </a>
             <a
@@ -39,7 +39,7 @@
                     height="24"
                     aria-label="Linkdin Icon"
                 >
-                    <image xlink:href="../../assets/img/linkedin.svg"></image>
+                    <image xlink:href="../../../../assets/img/linkedin.svg"></image>
                 </svg>
             </a>
         </div>

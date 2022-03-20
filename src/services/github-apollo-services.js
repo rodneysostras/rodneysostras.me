@@ -9,12 +9,12 @@
 import { ApolloClient, createHttpLink, InMemoryCache } from '@apollo/client/core'
 import { createApolloProvider } from '@vue/apollo-option'
 
-import { API_API_ENDPOINT_GTIHUB_TOKEN } from '@/settings'
+import { API_ENDPOINT_GITHUB_TOKEN } from '@/settings'
 
 const httpLink = createHttpLink({
     uri: 'https://api.github.com/graphql',
     headers: {
-        authorization: `Bearer ${API_API_ENDPOINT_GTIHUB_TOKEN}`, 
+        authorization: `Bearer ${API_ENDPOINT_GITHUB_TOKEN}`, 
     }
 });
 

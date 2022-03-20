@@ -28,13 +28,13 @@
 <script>
 import gql from 'graphql-tag';
 
-import { API_API_ENDPOINT_GTIHUB_USER } from '@/settings';
+import { API_ENDPOINT_GTIHUB_USER } from '@/settings';
 
 import ProjectsCard from './components/projects-card';
 
 const GITHUB_PROJECTS_QUERY = gql`
     {
-        user(login: "${API_API_ENDPOINT_GTIHUB_USER}") {
+        user(login: "${API_ENDPOINT_GTIHUB_USER}") {
             name
             pinnedItems(first: 6, types: [REPOSITORY]) {
                 edges {

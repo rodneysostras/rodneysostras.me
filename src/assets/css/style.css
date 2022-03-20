@@ -78,6 +78,18 @@ a {
     background: #555;
 }
 
+.window-onerror {
+    width: 90%;
+    padding: 1rem 2rem;
+    margin: 0 auto;
+    margin-top: 1rem;
+    border: 1px dashed #ffff003a;
+    font-size: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ffff001f;
+}
+
 @font-face {
     font-family: 'Agustina Regular';
     font-style: normal;

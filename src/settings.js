@@ -7,5 +7,7 @@
 // └──────────────────────────────────────────────────────────────────────────────────────────────┘ 
 
 export const API_API_ENDPOINT_GITHUB_TOKEN = (process.env.VUE_APP_API_ENDPOINT_GITHUB_TOKEN || '').trim();
+export const API_API_ENDPOINT_GTIHUB_USER = (process.env.VUE_APP_API_ENDPOINT_GITHUB_USERNAME || '').trim();
 
 if(!API_API_ENDPOINT_GITHUB_TOKEN) throw new Error('Please provide an GITHUB TOKEN');
+if(!API_API_ENDPOINT_GTIHUB_USER) throw new Error('Please provide an GITHUB TOKEN');

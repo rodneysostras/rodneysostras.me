@@ -27,17 +27,12 @@
                     >
                 </li>
                 <li>
-                    <a href="#resume" target="_self" title="Curriculo de Rodney Sostras"
-                        ><span>CURRICULO</span></a
-                    >
-                </li>
-                <li>
                     <a href="#projects" target="_self" title="Projetos de Rodney Sostras"
                         ><span>PROJETOS</span></a
                     >
                 </li>
                 <li>
-                    <a href="#contact" target="_self" title="Contato de Rodney Sostras"
+                    <a href="#contacts" target="_self" title="Contato de Rodney Sostras"
                         ><span>CONTATO</span></a
                     >
                 </li>

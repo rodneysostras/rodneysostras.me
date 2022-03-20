@@ -36,7 +36,7 @@
             <li><img src="/img/icons/photoshop.webp" alt="photoshop" /></li>
         </ul>
         <div>
-            <a href="#contact" class="outline">Meu contato</a>
+            <a href="#contacts" class="outline">Meu contato</a>
             <a href="https://drive.google.com/drive/folders/1R60dhO7brP_HOhX9y_kv2oGiM8s-RuKy">
                 Currículo
             </a>

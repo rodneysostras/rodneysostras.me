@@ -40,9 +40,9 @@
                 </ul>
                 <div>
                     <a href="#home">Home</a>
-                    <a href="#about">Sobre Mim</a>
+                    <a href="#about">Sobre</a>
                     <a href="#projects">Projetos</a>
-                    <a href="#contact">Contato</a>
+                    <a href="#contacts">Contato</a>
                 </div>
                 <span>© {{ new Date().getFullYear() }} Rodney Sostras</span>
             </div>

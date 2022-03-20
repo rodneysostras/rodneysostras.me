@@ -1,5 +1,9 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 
+import apolloProvider from './services/github-apollo-services';
+
 /* eslint-disable */
-createApp(App).mount('#app')
+createApp(App)
+    .use(apolloProvider)
+    .mount('#app');

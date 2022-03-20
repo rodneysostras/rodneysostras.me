@@ -36,14 +36,14 @@ export default {
         return {
             education: [
                 {
-                    image: require('@/assets/img/logo-estacio-faculdade.jpg'),
+                    image: '/img/logo-universidade-estacio.webp',
                     headline: 'Universidade Estacio de Sã',
                     subhead: 'Sistema de Informação',
                     date: '2014-2019',
                     text: 'Aprendi a manipular dados e a estrutura para desenvolver um software além de comunicação e gestão.',
                 },
                 {
-                    image: require('@/assets/img/logo-colegio-flama.png'),
+                    image: '/img/logo-colegio-flama.webp',
                     headline: 'Colegio Flama',
                     subhead: 'Técnico em Informática',
                     date: '2009-2011',

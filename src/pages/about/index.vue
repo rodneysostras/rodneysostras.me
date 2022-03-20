@@ -10,7 +10,7 @@
 <template>
     <section id="about" class="container">
         <h2>Sobre mim</h2>
-        <img src="@/assets/img/rodneysostras.png" alt="Rodney Sostras" />
+        <img src="/img/rodneysostras.webp" alt="Rodney Sostras" />
         <p>
             Sou um desenvolvedor de software Front-end me aprimorando em Full Stack, apaixonado por
             tecnologia com desejo de impactar a vida de pessoas com o que sou capaz de criar.
@@ -26,18 +26,14 @@
             </span>
         </p>
         <ul>
-            <li>
-                <img src="https://ahsankhan.me/images/skills/javascript.png" alt="javascript" />
-            </li>
-            <li><img src="https://ahsankhan.me/images/skills/react.png" alt="reactjs" /></li>
-            <li><img src="https://ahsankhan.me/images/skills/html.png" alt="html5" /></li>
-            <li><img src="https://ahsankhan.me/images/skills/css.png" alt="css3" /></li>
-            <li>
-                <img src="https://ahsankhan.me/images/skills/firebase.png" alt="firebase" />
-            </li>
-            <li>
-                <img src="https://ahsankhan.me/images/skills/photoshop.png" alt="photoshop" />
-            </li>
+            <li><img src="/img/icons/javascript.webp" alt="javascript" /></li>
+            <li><img src="/img/icons/typescripts.webp" alt="typescript" /></li>
+            <li><img src="/img/icons/react.webp" alt="reactjs" /></li>
+            <li><img src="/img/icons/vue.webp" alt="vuejs" /></li>
+            <li><img src="/img/icons/html.webp" alt="html5" /></li>
+            <li><img src="/img/icons/css.webp" alt="css3" /></li>
+            <li><img src="/img/icons/firebase.webp" alt="firebase" /></li>
+            <li><img src="/img/icons/photoshop.webp" alt="photoshop" /></li>
         </ul>
         <div>
             <a href="#contact" class="outline">Meu contato</a>

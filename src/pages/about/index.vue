@@ -42,7 +42,7 @@
         <div>
             <a href="#contact" class="outline">Meu contato</a>
             <a href="https://drive.google.com/drive/folders/1R60dhO7brP_HOhX9y_kv2oGiM8s-RuKy">
-                Download CV
+                Currículo
             </a>
         </div>
     </section>

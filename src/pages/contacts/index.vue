@@ -51,7 +51,7 @@
                         </li>
                         <li>
                             <a
-                                href="http://linkdin.com/in/rodney-sostras"
+                                href="http://linkedin.com/in/rodney-sostras"
                                 target="_blank"
                                 title="Rodney Sostras linkedn"
                             >
